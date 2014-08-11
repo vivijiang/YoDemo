@@ -1,4 +1,4 @@
-// Generated on 2014-01-09 using generator-webapp 0.4.6
+// Generated on 2014-01-23 using generator-webapp 0.4.6
 'use strict';
 
 // # Globbing
@@ -118,12 +118,13 @@ module.exports = function (grunt) {
                 jshintrc: '.jshintrc',
                 reporter: require('jshint-stylish')
             },
-            all: [
-                'Gruntfile.js',
-                '<%= yeoman.app %>/scripts/{,*/}*.js',
-                '!<%= yeoman.app %>/scripts/vendor/*',
-                'test/spec/{,*/}*.js'
-            ]
+            globals:{angular: true}//,
+//            all: [
+//                'Gruntfile.js',
+//                '<%= yeoman.app %>/scripts/{,*/}*.js',
+//                '!<%= yeoman.app %>/scripts/vendor/*',
+//                'test/spec/{,*/}*.js'
+//            ]
         },
 
 
