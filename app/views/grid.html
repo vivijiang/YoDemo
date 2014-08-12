@@ -15,14 +15,20 @@
 
 
     </head>
-    <body ng-app="ng.odin.grid">
-        <div class="container" ng-controller="test">
+    <body ng-app="GridDemo">
+        <div class="container" ng-controller="GridDemoController">
     <h1>Odin - Grid</h1>
 {{hello}}
+            <br/>
+            <my-customer info="igor"></my-customer>
+            <odin-grid odin-grid-options="customGrid"></odin-grid>
+
         </div>
 <script src="../scripts/ng-odin/grid/directives.js" ></script>
 <script src="../scripts/ng-odin/grid/services.js" ></script>
 <script src="../scripts/ng-odin/grid/app.js" ></script>
+<script src="../scripts/app/grid/grid.js" ></script>
+
 
     </body>
 </html>

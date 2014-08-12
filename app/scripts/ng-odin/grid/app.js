@@ -6,7 +6,5 @@
 angular.module('ng.odin.grid', [
 	'ng.odin.grid.services',
 	'ng.odin.grid.directives'
-])
-	.controller('test', function($scope) {
-		$scope.hello = 'hello';
-	});
+]);
+
